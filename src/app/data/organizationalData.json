@@ -1,0 +1,53 @@
+{
+    "section" : "Organizational",
+    "lastUpdate" : "2025-03-08",
+    "record" : [
+        {
+            "Code" : "HMTI-A3",
+            "Organization" : "HMTI Udinus",
+            "About Organization" : "Himpunan Mahasiswa Teknik Informatika (HMTI) is a supervised IT college student organization. Our activities are primarily provide some programs that is related to IT, such as coding and software competition and seminar.",
+            "Role" : "A3 (Member)",
+            "Role Description" : "A3 same as member role in a organization. We helped the senior in program preparation if needed.",
+            "Location" : "Semarang, Jawa Tengah",
+            "Start Date" : "2022-10-01",
+            "End Date" : "2023-10-01",
+            "Program" : [
+                {
+                    "Name" : "Semnasti 2023",
+                    "Contribution" : [
+                        "Design and manage registration forms.",
+                        "Help preparing the event venue."
+                    ]
+                },
+                {
+                    "Name" : "HMTI Family",
+                    "Contribution" : [
+                        "Win the group solidarity competition."
+                    ]
+                }
+            ],
+            "Acquired Skill" : ["Self Management", "Teamwork", "Communication", "Google Form"]
+        },
+        {
+            "Code" : "GDSC-CT",
+            "Organization" : "GDSC Udinus",
+            "About Organization" : "Google Developer Student Club (GDSC) is a student club that is supervised by Google Indonesia. In Udinus at the time, we focused the club to provide place so that IT students (not only in Udinues) can learn and share the knowledge in IT domain (not just Google product).",
+            "Role" : "Core Team (PR)",
+            "Role Description" : "Core Team is the teams that manage the sharing place (WA group). Public relation division responsible in making collaboration with other organization and searching for sponsor.",
+            "Location" : "Semarang, Jawa Tengah, Indonesia",
+            "Start Date" : "2023-08-01",
+            "End Date" : "2024-08-01",
+            "Program" : [
+                {
+                    "Name" : "GDSC Udinus Cloud Class 2023",
+                    "Contribution" : [
+                        "Design the curriculum for the cloud class.",
+                        "Managing the cloud class schedule.",
+                        "Teach the applicants the basic of cloud computing (GCP)."
+                    ]
+                }
+            ],
+            "Acquired Skill" : ["Cloud Computing", "GCP", "Self management", "Communication"]
+        }
+    ]
+}

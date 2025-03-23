@@ -1,0 +1,28 @@
+{
+    "section" : "Academic",
+    "lastUpdate" : "2025-02-01",
+    "record" : [
+        {
+            "Degree" : "Bachelor's Degree",
+            "Major" : "Computer Science",
+            "School" : "Universitas Dian Nuswantoro",
+            "Location" : "Semarang, Jawa Tengah, Indonesia",
+            "Start Date" : "2022-08-01",
+            "Graduation Date (expected)" : "2026-08-01",
+            "Current Semester" : "6",
+            "GPA" : "3.88 / 4.00",
+            "Focus" : "Software Engineering",
+            "Status" : "Active"
+        },
+        {
+            "Degree" : "High School",
+            "Major" : "Science",
+            "School" : "SMA Negeri 1 Kudus",
+            "Location" : "Kudus, Jawa Tengah, Indonesia",
+            "Enrollment Date" : "2019-06-01",
+            "Graduation Date" : "2022-06-01",
+            "GPA" : "88 / 100",
+            "Status" : "Graduated"
+        }
+    ]
+}

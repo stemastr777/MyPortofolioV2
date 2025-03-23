@@ -19,3 +19,11 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.text-link {
+  text-decoration: underline;
+}
+
+.text-link:hover {
+  color: rgb(34 211 238 / var(--tw-text-opacity, 1));
+}

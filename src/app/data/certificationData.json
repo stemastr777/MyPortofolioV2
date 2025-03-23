@@ -1,0 +1,70 @@
+{
+    "section" : "Certification",
+    "lastUpdate" : "2025-02-17",
+    "record" : [
+        {
+            "Title" : "Cloud Practitioner Essential",
+            "Organization" : "Dicoding",
+            "Published date" : "2024-05-09",
+            "Expired date" : "2027-05-09",
+            "Skill acquired" : "Cloud Computing",
+            "Verification link" : "https://www.dicoding.com/certificates/53XEONEW9ZRN"
+        },
+        {
+            "Title" : "Architecting on AWS",
+            "Organization" : "Dicoding",
+            "Published date" : "2024-09-23",
+            "Expired date" : "2027-09-23",
+            "Skill acquired" : "Cloud Computing, AWS",
+            "Verification link" : "https://www.dicoding.com/certificates/GRX54GN1VP0M"
+        },
+        {
+            "Title" : "BackEnd Pemula dengan Javascript",
+            "Organization" : "Dicoding",
+            "Published date" : "2024-10-06",
+            "Expired date" : "2027-10-06",
+            "Skill acquired" : "Javascript, NodeJS, ExpressJS",
+            "Verification link" : "https://www.dicoding.com/certificates/0LZ049O63P65"
+        },
+        {
+            "Title" : "Dasar-dasar Devops",
+            "Organization" : "Dicoding",
+            "Published date" : "2024-09-14",
+            "Expired date" : "2027-09-14",
+            "Skill acquired" : "principle",
+            "Verification link" : "https://www.dicoding.com/certificates/JLX17NKKGX72"
+        },
+        {
+            "Title" : "Dasar Pemrograman Javascript",
+            "Organization" : "Dicoding",
+            "Published date" : "2024-10-12",
+            "Expired date" : "2027-10-12",
+            "Skill acquired" : "Javascript",
+            "Verification link" : "https://www.dicoding.com/certificates/JMZV4107QXN9"
+        },
+        {
+            "Title" : "Jaringan Komputer untuk Pemula",
+            "Organization" : "Dicoding",
+            "Published date" : "2024-09-18",
+            "Expired date" : "2027-09-18",
+            "Skill acquired" : "Computer Network",
+            "Verification link" : "https://www.dicoding.com/certificates/NVP7QMWNVZR0"
+        },
+        {
+            "Title" : "Tetris Batch 2",
+            "Organization" : "DQLab",
+            "Published date" : "2022",
+            "Expired date" : "-",
+            "Skill acquired" : "Python3, MySQL, Pentaho",
+            "Verification link" : "-"
+        },
+        {
+            "Title" : "Cloud Practitioner Essentials",
+            "Organization" : "AWS",
+            "Published date" : "2023-10-17",
+            "Expired date" : "-",
+            "Skill acquired" : "AWS",
+            "Verification link" : "-"
+        }
+    ]
+}
