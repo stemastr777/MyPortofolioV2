@@ -24,7 +24,7 @@ export default function LoadableImage({src, clickable, width, height, alt, style
                 width={width}
                 height={height}
                 placeholder="empty"
-                className={`${clickable ? 'hover:opacity-70 cursor-pointer':null} h-full`}
+                className={`${clickable ? 'hover:opacity-70 cursor-pointer' : null} h-full`}
                 onLoad={() => setLoading(false)}
                 onClick={() => clickable && setOpenDialog(true)}
                 style={style}

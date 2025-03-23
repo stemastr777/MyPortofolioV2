@@ -13,14 +13,14 @@ function SimpleSideDetail({section, data}) {
             <ColoredSectionBlock className="flex flex-col items-center h-[100vh] basis-1/3 py-10 px-4">
                 <h1 className="text-4xl mb-6 text-center">{data.Role}</h1>
                 <h3 className="text-xl text-center">at {data.Organization}</h3>
-                <div className='w-[175px] h-[175px] my-14'>
+                <div className='w-[260px] h-[175px] my-14'>
                     <LoadableImage
                         src={`/logos/logo-` + data.Organization.replace(" ", '').toLowerCase() + '.png'}
                         width={250}
                         height={250}
                         alt={`${data.Organization + data.Role}`}
                         clickable={false}
-                        style={{ borderRadius: "5px" }}
+                        style={{ borderRadius: "5px", objectFit: 'contain' }}
                     ></LoadableImage>
                 </div>
                 <div className="space-y-4 w-full">
@@ -44,14 +44,14 @@ function SimpleSideDetail({section, data}) {
         return (
             <ColoredSectionBlock className="flex flex-col items-center h-[100vh] basis-1/3 py-10 px-4">
                 <h1 className="text-4xl mb-6 text-center">{data.Name}</h1>
-                <div className='w-[175px] h-[175px] my-14'>
+                <div className='w-[260px] h-[175px] my-14'>
                     <LoadableImage
                         src={`/logos/logo-` + data.Name.replace(" ", '').toLowerCase() + '.png'}
                         width={250}
                         height={250}
                         alt={`${data.Name}`}
                         clickable={false}
-                        style={{ borderRadius: "5px" }}
+                        style={{ borderRadius: "5px", objectFit: 'contain' }}
                     ></LoadableImage>
                 </div>
                 <div className="space-y-4 w-full">

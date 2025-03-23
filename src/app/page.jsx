@@ -34,7 +34,7 @@ export default function HomePage() {
           &#128075; Hi, my name is Steven Adi Suryanto,
         </h2>
         <div className="flex flex-row space-x-12 items-center px-6">
-          <figure className="flex basis-1/3 justify-center  ">
+          <figure className="flex basis-1/3 min-w-[175px] justify-center  ">
             <LoadableImage
               src={profilePicture}
               alt="Profile picture of Steven Adi Suryanto"
@@ -47,7 +47,7 @@ export default function HomePage() {
               }}
             ></LoadableImage>
           </figure>
-          <div className=" flex flex-col justify-center space-y-8 basis-2/3 h-[300px] border-white">
+          <div className=" flex flex-col justify-center space-y-8 basis-2/3 min-h-[300px] border-white">
             <p>
               I am currently a 6<sup>th</sup> Semester college student at <a href="https://dinus.ac.id/" target="_blank"></a>Universitas Dian Nuswantoro Semarang.
               I am majoring in Teknik Informatika (Computer Science) and currently focusing spesifically on Web Development and Devops.
@@ -64,7 +64,7 @@ export default function HomePage() {
         <h2 className="text-2xl font-semibold mb-12">
           &#129343; Get to know more :
         </h2>
-        <div className=" grid grid-rows-3 xl:grid-rows-2 grid-cols-2 xl:grid-cols-3 gap-x-12 gap-y-10  px-36">
+        <div className=" grid grid-cols-1 px-16 lg:grid-cols-2 lg:px-24 2xl:grid-cols-3 2xl:px-36 gap-x-12 gap-y-10 ">
           {
             sectionOverviewData.map((data, index) => {
               return <SectionCard key={index} data={data} />

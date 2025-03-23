@@ -5,70 +5,70 @@
         {
             "Name" : "Javascript",
             "Purpose" : "As the main programming language for the fullstack web project.",
-            "Category" : "Webdev",
+            "Category" : "WebDev",
             "Proof" : [],
             "ProficientLevel" : 5
         },
         {
             "Name" : "HTML5",
             "Purpose" : "No way not using it in web app",
-            "Category" : "Webdev",
+            "Category" : "WebDev",
             "Proof" : [],
             "ProficientLevel" : 5
         },
         {
             "Name" : "CSS3",
             "Purpose" : "Essential for styling webapp",
-            "Category" : "Webdev",
+            "Category" : "WebDev",
             "Proof" : [],
             "ProficientLevel" : 5
         },
         {
             "Name" : "TailwindCSS",
             "Purpose" : "For enabling utility-based styling. I use it on almost every of my web app to avoid writing in pure CSS which feels so hard to maintain.",
-            "Category" : "Webdev",
+            "Category" : "WebDev",
             "Proof" : [],
             "ProficientLevel" : 4
         },
         {
             "Name" : "MaterialUI",
             "Purpose" : "Accelerate development process with the use of styled components.",
-            "Category" : "Webdev",
+            "Category" : "WebDev",
             "Proof" : [],
             "ProficientLevel" : 4
         },
         {
             "Name" : "NodeJS",
             "Purpose" : "For programming the backend part for application that use JS/TS.",
-            "Category" : "Webdev",
+            "Category" : "WebDev",
             "Proof" : [],
             "ProficientLevel" : 3
         },
         {
             "Name" : "NextJS",
             "Purpose" : "Use it as fullstack framework for webapp that use JS/TS.",
-            "Category" : "Webdev",
+            "Category" : "WebDev",
             "Proof" : [],
             "ProficientLevel" : 4
         },
         {
             "Name" : "ExpressJS",
             "Purpose" : "As the framework for the backend part of Javascript app.",
-            "Category" : "Webdev",
+            "Category" : "WebDev",
             "Proof" : [],
             "ProficientLevel" : 3
         },
         {
             "Name" : "MySQL",
             "Purpose" : "Primary choice for relational databases.",
-            "Category" : "Webdev",
+            "Category" : "WebDev",
             "Proof" : [],
             "ProficientLevel" : 3
         },
         {
             "Name" : "MongoDB",
             "Purpose" : "Primary choice for non-relational databases.",
-            "Category" : "Webdev",
+            "Category" : "WebDev",
             "Proof" : [],
             "ProficientLevel" : 3
         },
@@ -103,7 +103,7 @@
         {
             "Name" : "Playwright",
             "Purpose" : "For testing web app or for crawling tool on website.",
-            "Category" : "Webdev",
+            "Category" : "WebDev",
             "Proof" : [],
             "ProficientLevel" : 3
         },
@@ -152,7 +152,7 @@
         {
             "Name" : "ReactJS",
             "Purpose" : "The foundation for all of the framework used, for example NextJS and MaterialUI.",
-            "Category" : "Devops",
+            "Category" : "WebDev",
             "Proof" : [],
             "ProficientLevel" : 4
         },

@@ -19,6 +19,7 @@ export default function SectionCard({data}) {
         <Link
             href={`/${data.name.replace(" ", "-").toLowerCase()}`}
             scroll={false}
+            className='flex justify-center'
         >
             <div className={`
                     group/section-card 

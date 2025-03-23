@@ -18,7 +18,7 @@ export default function CertificationBlock({ data }) {
     
     return(
         <>
-            <ColoredSectionBlock className={`relative flex flex-row space-x-8 py-6 px-8 h-[360px] w-full`}>
+            <ColoredSectionBlock className={`relative flex flex-col xl:flex-row space-x-8 py-6 px-8  xl:h-[360px] w-full`}>
                 <div id="certificate-asset" className="flex flex-col space-y-4 basis-1/3 items-center h-full my-auto">
                     <LoadableImage src={previewImagePath} clickable={true} height={230} width={324} ></LoadableImage>
                     <div
