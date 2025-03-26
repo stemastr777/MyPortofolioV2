@@ -33,8 +33,8 @@ export default function HomePage() {
         <h2 className="text-2xl font-semibold mb-12">
           &#128075; Hi, my name is Steven Adi Suryanto,
         </h2>
-        <div className="flex flex-row space-x-12 items-center px-6">
-          <figure className="flex basis-1/3 min-w-[175px] justify-center  ">
+        <div className="flex flex-col sm:flex-row text-center sm:text-left sm:space-x-12 space-y-4 sm:space-y-0  items-center px-6">
+          <figure className="flex basis-1/3 justify-center w-[150px] h-[300px] sm:w-fit sm:h-fit">
             <LoadableImage
               src={profilePicture}
               alt="Profile picture of Steven Adi Suryanto"

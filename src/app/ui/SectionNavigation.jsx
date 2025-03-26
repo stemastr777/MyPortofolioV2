@@ -19,23 +19,32 @@ export default function SectionNavigation() {
         <nav className="flex justify-between items-center">
             <Link
                 href={"/" + descriptiveToPathCompatible(prev)}
-                className={`flex flex-col space-y-2 border-[1px] py-3 px-6 rounded-md w-3/12 hover:bg-slate-800 border-white hover:border-${getSectionColor(prev)}-400 hover:shadow-lg hover:shadow-${getSectionColor(prev)}-400`}
+                className={`
+                    flex flex-col space-y-2 border-[1px] rounded-md hover:border-${getSectionColor(prev)}-400
+                    py-3 px-6  
+                    w-3/12 min-w-[125px] sm:min-w-[200px]
+                    hover:bg-slate-800 border-white hover:shadow-lg hover:shadow-${getSectionColor(prev)}-400`}
             >
                 <div className="flex items-center">
                     <span id="back-button">&#8592;</span>
                     <label htmlFor="back-button" className="ml-3 text-sm">previous</label>
                 </div>
-                <h2 className="text-lg font-semibold text-left">{prev}</h2>
+                <h2 className="text-md md:text-lg font-semibold text-left">{prev}</h2>
             </Link>
             <Link
                 href={"/" + descriptiveToPathCompatible(next)}
-                className={`flex flex-col items-end space-y-2 border-[1px] py-3 px-6 rounded-md w-3/12 hover:bg-slate-800 border-white hover:border-${getSectionColor(next)}-400 hover:shadow-lg hover:shadow-${getSectionColor(next)}-400`}
+                className={`
+                    flex flex-col items-end space-y-2 border-[1px] rounded-md hover:border-${getSectionColor(next)}-400
+                    py-3 px-6  
+                    w-3/12 min-w-[125px] sm:min-w-[200px]
+                    hover:bg-slate-800 border-white hover:shadow-lg hover:shadow-${getSectionColor(next)}-400
+                `}
             >
                 <div className="flex items-center">
                     <label htmlFor="back-button" className="mr-3 text-sm">next</label>
                     <span id="back-button">&#8594;</span>
                 </div>
-                <h2 className="text-lg font-semibold text-right">{next}</h2>
+                <h2 className="text-md md:text-lg font-semibold text-right">{next}</h2>
             </Link>
         </nav>
     )

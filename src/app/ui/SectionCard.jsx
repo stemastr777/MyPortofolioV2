@@ -23,7 +23,7 @@ export default function SectionCard({data}) {
         >
             <div className={`
                     group/section-card 
-                    h-56 w-full max-w-[400px] 
+                    min-w-[270px] h-48 items-center text-center sm:text-left sm:items-baseline sm:h-56 w-full max-w-[400px] 
                     inline-flex flex-col px-4 pt-6 pb-8 justify-between
                     border-[1px] hover:shadow-lg border-${sectionColor}-400 hover:shadow-${sectionColor}-400 rounded-md 
                     hover:cursor-pointer hover:bg-slate-800`

@@ -4,6 +4,8 @@ import { useParams } from "next/navigation"
 
 import organizationalData from "@/data/organizationalData"
 import { SimpleSideDetail, ComprehensiveSideDetail } from "@/ui/section-detail";
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+
 
 export default function OrganizationalDetailPage() {
 
@@ -13,10 +15,18 @@ export default function OrganizationalDetailPage() {
     
     return (
         <>
-            <div className="flex flex-row space-x-8">
+            <button className="mb-4" onClick={() => window.history.back()}>
+                <ArrowBackIcon fontSize='small' className="mr-2" />
+                Back
+            </button>
+            <div className="flex flex-col sm:flex-row sm:space-x-8 ">
                 <SimpleSideDetail data={record} section={'organizational-experiences'}></SimpleSideDetail>
                 <ComprehensiveSideDetail data={record} section={'organizational-experiences'}></ComprehensiveSideDetail>
             </div>
+            <button className="mt-4" onClick={() => window.history.back()}>
+                <ArrowBackIcon fontSize='small' className="mr-2" />
+                Back
+            </button>
         </>
     )
 }

@@ -38,10 +38,10 @@ export default function Body({children}) {
         <>
             <SectionColor.Provider value={getSectionColor(currentPath)}>
                 <body
-                    className={`${outfit.className} mb-36 bg-white dark:bg-slate-900 text-black dark:text-slate-100 tracking-wider leading-loose antialiased`}
+                    className={`${outfit.className} text-base mb-36 bg-white dark:bg-slate-900 text-black dark:text-slate-100 tracking-wider leading-loose antialiased`}
                 >
                     <Header className="z-20" />
-                    <main className=" z-10 w-3/4 mx-auto mt-12 min-h-[100vh] ">
+                    <main className=" z-10 w-[90%] md:w-3/4 mx-auto mt-12 min-h-[100vh] ">
                         {children}
                     </main>
                 </body>

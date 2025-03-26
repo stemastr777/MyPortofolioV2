@@ -10,20 +10,24 @@ function SimpleSideDetail({section, data}) {
 
     if (section == 'organizational-experiences') {
         return (
-            <ColoredSectionBlock className="flex flex-col items-center h-[100vh] basis-1/3 py-10 px-4">
-                <h1 className="text-4xl mb-6 text-center">{data.Role}</h1>
-                <h3 className="text-xl text-center">at {data.Organization}</h3>
-                <div className='w-[260px] h-[175px] my-14'>
-                    <LoadableImage
-                        src={`/logos/logo-` + data.Organization.replace(" ", '').toLowerCase() + '.png'}
-                        width={250}
-                        height={250}
-                        alt={`${data.Organization + data.Role}`}
-                        clickable={false}
-                        style={{ borderRadius: "5px", objectFit: 'contain' }}
-                    ></LoadableImage>
+            <ColoredSectionBlock className="flex flex-col items-center sm:h-[100vh] sm:basis-1/3 py-4 sm:py-10 px-4">
+                <div className="flex flex-row-reverse justify-around mb-4 sm:flex-col sm:items-center ">
+                    <div className="flex flex-col justify-center ml-8 sm:ml-0 min-w-[150px]">
+                        <h1 className="text-4xl mb-6 text-center">{data.Role}</h1>
+                        <h3 className="text-xl text-center">at {data.Organization}</h3>
+                    </div>
+                    <div className='sm:w-fit sm:h-fit sm:my-14 basis-1/3'>
+                        <LoadableImage
+                            src={`/logos/logo-` + data.Organization.replace(" ", '').toLowerCase() + '.png'}
+                            width={200}
+                            height={200}
+                            alt={`${data.Organization + data.Role}`}
+                            clickable={false}
+                            style={{ borderRadius: "5px", objectFit: 'contain' }}
+                        ></LoadableImage>
+                    </div>
                 </div>
-                <div className="space-y-4 w-full">
+                <div className="space-y-2 sm:space-y-4 w-full">
                     {
                         ["Start Date", "End Date", "Location"].map((part) => {
                             return (

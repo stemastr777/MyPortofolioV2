@@ -27,3 +27,56 @@ body {
 .text-link:hover {
   color: rgb(34 211 238 / var(--tw-text-opacity, 1));
 }
+
+@media (min-width: 1024px) {
+  .text-sm {
+    font-size: 1rem;
+      line-height: 1.25rem
+  }
+}
+
+@media (max-width: 1024px) {
+  
+  .text-4xl {
+    font-size: 1.6rem;
+    line-height: 2rem
+  }
+
+  .text-xl {
+    font-size: 1rem;
+    line-height: 1.75rem
+  }
+
+  .text-base {
+    font-size: 0.8rem;
+    line-height: 1.25rem
+  }
+
+  .text-sm {
+    font-size: 0.7rem;
+    line-height: 1rem
+  }
+}
+
+@media (max-width: 640px) {
+  .text-4xl {
+    font-size: 1.5rem;
+    line-height: 2rem
+  }
+
+  .text-2xl {
+    font-size: 1.125rem;
+    line-height: 1.75rem
+  }
+
+  .text-base {
+    font-size: 0.75rem;
+    line-height: 1rem
+  }
+
+  .text-sm {
+    font-size: 0.6rem;
+    line-height: 0.75rem
+  }
+
+}

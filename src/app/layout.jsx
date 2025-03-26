@@ -4,7 +4,7 @@ import Body from "@/ui/Body";
 
 export const metadata = {
   title: "StevenAdiS Portofolio Website",
-  description: "This is my personal portofolio website.",
+  description: "This is my personal portofolio website."
 };
 
 
