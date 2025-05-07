@@ -26,7 +26,7 @@
                     ]
                 }
             ],
-            "Acquired Skill" : ["Self Management", "Teamwork", "Communication", "Google Form"]
+            "Acquired Skill" : ["Communication", "Google Form"]
         },
         {
             "Code" : "GDSC-CT",
@@ -47,7 +47,7 @@
                     ]
                 }
             ],
-            "Acquired Skill" : ["Cloud Computing", "GCP", "Self management", "Communication"]
+            "Acquired Skill" : ["Cloud Computing", "GCP", "Adaptability", "Task focused", "Creativity"]
         }
     ]
 }

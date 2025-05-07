@@ -14,7 +14,7 @@ export default function CertificationsPage() {
             <div id="page-content" className="flex flex-col space-y-12 w-full mt-16">
                 {
                     certificationDatas["record"].map((data) => {
-                        return (<CertificationBlock key={data["Title"] + data["Organization"]} data={data} />)
+                        return (<CertificationBlock key={(data["Title"] + data["Organization"] ).replaceAll(' ', '')} data={data} />)
                     })
                 }
             </div>

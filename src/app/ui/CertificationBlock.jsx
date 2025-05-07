@@ -8,6 +8,7 @@ import pdfLogo from '@/logos/pdf_logo.png'
 import { fileNameSimplifier } from '@/utility/string-manipulation'
 import ColoredSectionBlock from './ColoredSectionBlock'
 import LoadableImage from './LoadableImage';
+import SkillChip from "./SkillChip";
 
 export default function CertificationBlock({ data }) {
 
@@ -46,7 +47,7 @@ export default function CertificationBlock({ data }) {
 
                             if (key === "Verification link") {
                                 return (
-                                    <div key={key + value} className='flex flex-row'>
+                                    <div key={key + value + Math.floor(Math.random()*100000)} className='flex flex-row'>
                                         <span className="inline-block text-wrap min-w-[90px] sm:w-[150px] sm:min-w-[150px]" >{key}</span>
                                         :
                                         {
@@ -57,10 +58,26 @@ export default function CertificationBlock({ data }) {
                                         }
                                     </div>
                                 )
+                            } else if (key === 'Skill acquired') {
+                                return(
+                                    <div key={key + value + Math.floor(Math.random() * 100000)} className='flex flex-row'>
+                                        <span className="inline-block text-wrap min-w-[90px] sm:w-[150px] sm:min-w-[150px]" >{key}</span>
+                                        :
+                                        {
+                                            <div className="flex flex-row ml-2">
+                                                {
+                                                    value.map((skill) => 
+                                                        <SkillChip key={skill} skill={skill}></SkillChip>
+                                                    )
+                                                }
+                                            </div>
+                                        }
+                                    </div>
+                                )
                             }
 
                             return (
-                                <div key={key + value} className='flex flex-row'>
+                                <div key={key + value + Math.floor(Math.random() * 100000)} className='flex flex-row'>
                                     <span className="inline-block text-wrap min-w-[90px] sm:w-[150px] sm:min-w-[150px]">{key}</span>
                                     :
                                     <span className="ml-2">{value}</span>

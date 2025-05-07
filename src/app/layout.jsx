@@ -7,14 +7,15 @@ export const metadata = {
   description: "This is my personal portofolio website."
 };
 
-
 export default function RootLayout({ children }) {
 
   return (
-    <html lang="en">
-      <Body>
-        {children}
-      </Body>
-    </html>
+
+        <html lang="en">
+          <Body>
+            {children}
+          </Body>
+        </html>
+
   );
 }

@@ -6,200 +6,202 @@
             "Name" : "Javascript",
             "Purpose" : "As the main programming language for the fullstack web project.",
             "Category" : "WebDev",
-            "Proof" : [],
-            "ProficientLevel" : 5
+            "Proof" : [
+                
+            ],
+            "UsageRate" : 5
         },
         {
             "Name" : "HTML5",
             "Purpose" : "No way not using it in web app",
             "Category" : "WebDev",
             "Proof" : [],
-            "ProficientLevel" : 5
+            "UsageRate" : 5
         },
         {
             "Name" : "CSS3",
             "Purpose" : "Essential for styling webapp",
             "Category" : "WebDev",
             "Proof" : [],
-            "ProficientLevel" : 5
+            "UsageRate" : 5
         },
         {
             "Name" : "TailwindCSS",
             "Purpose" : "For enabling utility-based styling. I use it on almost every of my web app to avoid writing in pure CSS which feels so hard to maintain.",
             "Category" : "WebDev",
             "Proof" : [],
-            "ProficientLevel" : 4
+            "UsageRate" : 4
         },
         {
             "Name" : "MaterialUI",
             "Purpose" : "Accelerate development process with the use of styled components.",
             "Category" : "WebDev",
             "Proof" : [],
-            "ProficientLevel" : 4
+            "UsageRate" : 4
         },
         {
             "Name" : "NodeJS",
             "Purpose" : "For programming the backend part for application that use JS/TS.",
             "Category" : "WebDev",
             "Proof" : [],
-            "ProficientLevel" : 3
+            "UsageRate" : 3
         },
         {
             "Name" : "NextJS",
             "Purpose" : "Use it as fullstack framework for webapp that use JS/TS.",
             "Category" : "WebDev",
             "Proof" : [],
-            "ProficientLevel" : 4
+            "UsageRate" : 4
         },
         {
             "Name" : "ExpressJS",
             "Purpose" : "As the framework for the backend part of Javascript app.",
             "Category" : "WebDev",
             "Proof" : [],
-            "ProficientLevel" : 3
+            "UsageRate" : 3
         },
         {
             "Name" : "MySQL",
             "Purpose" : "Primary choice for relational databases.",
             "Category" : "WebDev",
             "Proof" : [],
-            "ProficientLevel" : 3
+            "UsageRate" : 3
         },
         {
             "Name" : "MongoDB",
             "Purpose" : "Primary choice for non-relational databases.",
             "Category" : "WebDev",
             "Proof" : [],
-            "ProficientLevel" : 3
+            "UsageRate" : 3
         },
         {
             "Name" : "Github",
             "Purpose" : "Manage the project source code. Always use it all the time.",
             "Category" : "General",
             "Proof" : [],
-            "ProficientLevel" : 5
+            "UsageRate" : 5
         },
         {
             "Name" : "VS Code",
             "Purpose" : "Primary text editor. Use it all the time. Still learning at using it without use mouse/touchpad at all.",
             "Category" : "General",
             "Proof" : [],
-            "ProficientLevel" : 5
+            "UsageRate" : 5
         },
         {
             "Name" : "AWS",
             "Purpose" : "to make complex cloud environment that a project need.",
             "Category" : "General",
             "Proof" : [],
-            "ProficientLevel" : 3
+            "UsageRate" : 3
         },
         {
             "Name" : "Docker",
             "Purpose" : "Primary containerization tool for shipping app to production or testing fast and flexible.",
             "Category" : "Devops",
             "Proof" : [],
-            "ProficientLevel" : 4
+            "UsageRate" : 4
         },
         {
             "Name" : "Playwright",
             "Purpose" : "For testing web app or for crawling tool on website.",
             "Category" : "WebDev",
             "Proof" : [],
-            "ProficientLevel" : 3
+            "UsageRate" : 3
         },
         {
             "Name" : "Python3",
             "Purpose" : "Used when making something that is related to data analysis or AI/ML.",
             "Category" : "AI/ML",
             "Proof" : [],
-            "ProficientLevel" : 3
+            "UsageRate" : 3
         },
         {
             "Name" : "Terraform",
             "Purpose" : "For deploying infrastructure via code.",
             "Category" : "Devops",
             "Proof" : [],
-            "ProficientLevel" : 3
+            "UsageRate" : 3
         },
         {
             "Name" : "Jenkins",
             "Purpose" : "Secondary choice for CICD tool. I choose it because of the huge add on that can be used.",
             "Category" : "Devops",
             "Proof" : [],
-            "ProficientLevel" : 2
+            "UsageRate" : 2
         },
         {
             "Name" : "Github action",
             "Purpose" : "Primary choice for CICD tool because the out of the box intergration with the github.",
             "Category" : "Devops",
             "Proof" : [],
-            "ProficientLevel" : 3
+            "UsageRate" : 3
         },
         {
             "Name" : "GCP",
             "Purpose" : "Use it as the supporting choice for AWS in making app that need to use complex cloud environment.",
             "Category" : "General",
             "Proof" : [],
-            "ProficientLevel" : 2
+            "UsageRate" : 2
         },
         {
             "Name" : "Kubernetes",
             "Purpose" : "To manage operation of complex cloud environment.",
             "Category" : "Devops",
             "Proof" : [],
-            "ProficientLevel" : 2
+            "UsageRate" : 2
         },
         {
             "Name" : "ReactJS",
             "Purpose" : "The foundation for all of the framework used, for example NextJS and MaterialUI.",
             "Category" : "WebDev",
             "Proof" : [],
-            "ProficientLevel" : 4
+            "UsageRate" : 4
         },
         {
             "Name" : "Google Form",
             "Purpose" : "",
             "Category" : "General",
             "Proof" : [],
-            "ProficientLevel" : 4
+            "UsageRate" : 4
         },
         {
             "Name" : "Programming",
             "Description" : "Problem solving via coding using any programming language. This includes determine the time and space complexity.",
             "Category" : "General",
             "Proof" : [],
-            "ProficientLevel" : 5
+            "UsageRate" : 5
         },
         {
             "Name" : "Design pattern",
             "Description" : "Knowledge and experience in making decision about what design pattern best to use.",
             "Category" : "General",
             "Proof" : [],
-            "ProficientLevel" : 1
+            "UsageRate" : 1
         },
         {
             "Name" : "Cloud computing",
             "Description" : "Knowledge about general cloud computing technology, not about certain CSP.",
             "Category" : "General",
             "Proof" : [],
-            "ProficientLevel" : 0
+            "UsageRate" : 0
         },
         {
             "Name" : "System design",
             "Description" : "Experience in architecting computer system.",
             "Category" : "General",
             "Proof" : [],
-            "ProficientLevel" : 2
+            "UsageRate" : 2
         },
         {
             "Name" : "UI/UX design",
             "Description" : "Experience in making interface that user can comfortably use.",
             "Category" : "General",
             "Proof" : [],
-            "ProficientLevel" : 4
+            "UsageRate" : 4
         },
         {
-            "Name" : "Task focused work",
+            "Name" : "Task focused",
             "Description" : "",
             "Category" : "Softskill"            
         },
@@ -219,7 +221,7 @@
             "Category" : "Softskill"            
         },
         {
-            "Name" : "Socialize",
+            "Name" : "Communication",
             "Description" : "",
             "Category" : "Softskill"            
         }

@@ -1,12 +1,21 @@
 "use client"
 
 import { outfit } from "@/fonts";
-
-import { usePathname } from "next/navigation";
-
 import { SectionColor } from "@/ui/context";
 
+import { usePathname } from "next/navigation";
+import { StyledEngineProvider } from "@mui/material";
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+import CssBaseline from '@mui/material/CssBaseline';
+
 import Header from "@/ui/Header";
+
+
+const darkTheme = createTheme({
+    palette: {
+        mode: 'dark',
+    },
+});
 
 
 export default function Body({children}) {
@@ -36,16 +45,21 @@ export default function Body({children}) {
 
     return(
         <>
-            <SectionColor.Provider value={getSectionColor(currentPath)}>
-                <body
-                    className={`${outfit.className} text-base mb-36 bg-white dark:bg-slate-900 text-black dark:text-slate-100 tracking-wider leading-loose antialiased`}
-                >
-                    <Header className="z-20" />
-                    <main className=" z-10 w-[90%] md:w-3/4 mx-auto mt-12 min-h-[100vh] ">
-                        {children}
-                    </main>
-                </body>
-            </SectionColor.Provider>
+            <StyledEngineProvider injectFirst>
+                <ThemeProvider theme={darkTheme}>
+                    <CssBaseline />
+                    <SectionColor.Provider value={getSectionColor(currentPath)}>
+                        <body
+                            className={`${outfit.className} text-base mb-36 bg-white dark:bg-slate-900 text-black dark:text-slate-200 tracking-wider leading-loose antialiased`}
+                        >
+                            <Header className="z-20" />
+                            <main className=" z-10 w-[90%] md:w-3/4 mx-auto mt-12 min-h-[100vh] ">
+                                {children}
+                            </main>
+                        </body>
+                    </SectionColor.Provider>
+                </ThemeProvider>
+            </StyledEngineProvider>
         </>
     )
 }

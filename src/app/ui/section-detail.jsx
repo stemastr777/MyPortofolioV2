@@ -4,6 +4,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import ColoredSectionBlock from "@/ui/ColoredSectionBlock"
 import LoadableImage from "@/ui/LoadableImage"
 import OrganizationProgram from "@/ui/OrganizationProgram";
+import SkillChip from "./SkillChip";
 
 function SimpleSideDetail({section, data}) {
 
@@ -60,7 +61,7 @@ function SimpleSideDetail({section, data}) {
                 </div>
                 <div className="space-y-4 w-full">
                     {
-                        ["Category", "ProficientLevel"].map((part) => {
+                        ["Category", "UsageRate"].map((part) => {
                             return (
                                 <div key={part} className="flex flex-row space-x-8 text-sm justify-between items-center w-full min-h-12 px-4 opacity-90 bg-slate-900 rounded-sm">
                                     <span>{part}</span>
@@ -85,25 +86,38 @@ function ComprehensiveSideDetail({section, data}) {
             <ColoredSectionBlock id="exp-detail" className="h-[100vh] basis-2/3 p-4 overflow-y-auto">
     
                 {
-                    ["About Organization", "Role Description", "Program", "Acquired Skill"].map(section => {
+                    ["About Organization", "Role Description", "Program", "Acquired Skill"].map(detailTitle => {
     
                         return (
-                            <Accordion key={section} defaultExpanded className="!bg-slate-900 !text-slate-200 ">
+                            <Accordion key={detailTitle} defaultExpanded className="!bg-slate-900 !text-slate-200 ">
                                 <AccordionSummary
                                     className="h-20 !text-xl"
                                     expandIcon={<ExpandMoreIcon className="!text-slate-200" />}
                                     aria-controls="panel1-content"
                                     id="panel1-header"
                                 >
-                                    <span>{section}</span>
+                                    <span>{detailTitle}</span>
                                 </AccordionSummary>
                                 <AccordionDetails className="!bg-slate-900 !text-slate-200 border-t-2 border-green-800 !p-6">
-                                    {section != 'Program' && data[section]}
+                                    {['Program', 'Acquired Skill'].includes(detailTitle) || data[detailTitle]}
                                     {
-                                        section == "Program" ?
-                                            <OrganizationProgram programs={data[section]}></OrganizationProgram>
+                                        detailTitle == "Program" ?
+                                            <OrganizationProgram programs={data[detailTitle]}></OrganizationProgram>
                                             :
                                             null
+                                    }
+                                    {
+                                        detailTitle == "Acquired Skill" ?
+                                        // <div className="grid grid-cols-4 auto-cols-min gap-x-2 gap-y-4">
+                                        <div className="flex flex-row flex-wrap gap-y-4">
+                                            {
+                                                data[detailTitle].map(acqSkill => 
+                                                    <SkillChip skill={acqSkill} key={acqSkill}></SkillChip>
+                                                )
+                                            }
+                                        </div>
+                                        :
+                                        null
                                     }
                                 </AccordionDetails>
                             </Accordion>

@@ -29,7 +29,7 @@ export default function AcademicBlock({record}) {
             >
                 <div 
                     id="academic-block-background"
-                    className={`absolute opacity-25 z-[-1] w-full h-full top-0 left-0 rounded-[inherit] bg-blend-multiply bg-no-repeat bg-cover`}
+                    className={`absolute opacity-10 z-[-1] w-full h-full top-0 left-0 rounded-[inherit] bg-blend-multiply bg-no-repeat bg-cover`}
                     style={{
                         backgroundImage: `url(${bgImagePath})`
                     }}
@@ -70,8 +70,8 @@ export default function AcademicBlock({record}) {
                     {
                         memoryImagePath.map(path => {
                             return (
-                                <div className="snap-center w-[300px] h-full flex-shrink-0">
-                                    <LoadableImage src={path} width={300} height={200} alt="Academic memory image" key={path} >
+                                <div key={path.split('/')[2]} className="snap-center w-[300px] h-full flex-shrink-0">
+                                    <LoadableImage src={path} width={300} height={200} alt="Academic memory image">
                                     </LoadableImage>
                                 </div>
                             )
